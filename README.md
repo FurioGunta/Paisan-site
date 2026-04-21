@@ -1,40 +1,18 @@
 # Paisan Purchasing Group — website
 
-Static single-page site built from the Paisan board deck.
+Two-page site: landing + How it works.
 
 ## Files
 
-- `index.html` — all page content
-- `styles.css` — styling (Fraunces + Inter from Google Fonts)
+- `index.html` — landing page
+- `how-it-works.html` — 4-step explainer
+- `styles.css` — shared styling (Fraunces + Inter)
 - `vercel.json` — Vercel config (clean URLs)
 
-## Run locally
+## Contact
 
-Any static server works. Two easy options:
+Paisan@joinPaisan.com
 
-```bash
-# Python
-python3 -m http.server 5173
+## Deploy
 
-# Node
-npx serve .
-```
-
-Then open http://localhost:5173
-
-## Deploy to Vercel
-
-**Easiest:** go to https://vercel.com/new, drag this folder onto the page.
-
-**CLI:**
-```bash
-npm i -g vercel
-vercel           # preview
-vercel --prod    # production
-```
-
-## Things to update before going live
-
-- Replace the contact email `hello@paisangroup.com` in `index.html` with a real inbox.
-- Set up a real form backend (Formspree, Resend, or Vercel's serverless functions) — the current form opens the user's mail client as a fallback.
-- Add favicon + OG image if desired.
+Connected to Vercel via GitHub. Any push to `main` auto-deploys.
